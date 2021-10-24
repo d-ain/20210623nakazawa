@@ -67,25 +67,27 @@ a{
 
 
 .bod{
-
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .kom{
   font-family: 'Indie Flower', cursive;
   font-size: 15px;
   color: rgba(138, 0, 96, 0.822);
-  margin: 100px 0 0 300px;
+  margin: 100px 0 0 0px;
 }
 
 .ne{
-  margin: 0 0 0 300px;
+
   color: rgb(102, 102, 102);
 }
 
 .lin{
   border-top: 1px solid rgb(153, 153, 153);
   border-bottom: 1px solid rgb(153, 153, 153);
-  margin: 50px 0 100px 300px;
+  margin: 50px 0 100px 0px;
   padding: 30px 0 40px 0;
   width: 800px;
 }
@@ -171,6 +173,7 @@ a{
 .n{
   width: 100%;
   height: 450px;
+  
 }
 
 .b{
@@ -179,18 +182,27 @@ a{
   font-size: 15px;
   color: rgba(138, 0, 96, 0.822);
   margin-top: 60px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .y{
-  margin-left: 350px;
+  margin-left: px;
   color: rgb(102, 102, 102);
   margin-top: -30px;
   margin-bottom: 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .m{
   display: flex;
   margin-left: 350px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .car{
@@ -281,6 +293,9 @@ a{
   font-size: 15px;
   color: rgba(138, 0, 96, 0.822);
   padding-top: 60px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .pol{
@@ -288,6 +303,9 @@ a{
   color: rgb(102, 102, 102);
   margin-top: -20px;
   margin-bottom: 35px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 
@@ -300,12 +318,18 @@ a{
   border-radius: 15px;
   margin-bottom: 18px;
   position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 
 .fles{
   display: flex;
   margin-left: 350px;
+    width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .gor{
@@ -367,6 +391,9 @@ a{
 .she{
   padding: 60px 0;
   margin-left: 350px;
+    width: 100%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .llm{
@@ -418,15 +445,14 @@ a{
   display: flex;
 }
 
-
 .sad{
   color: white;
-  margin: -180px 0 0 310px;
+  margin: -150px auto 0 auto;
 }
 
 .sya{
   color: white;
-  margin: -180px 0 0 570px;
+  margin: -150px auto 0 auto;
 }
 
 .to{
@@ -439,8 +465,12 @@ a{
   width: 2px;
   height: 45px;
   background-color: rgba(138, 0, 96, 0.822);
-  margin: 20px 0 20px 702px;
   margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+.mail{
+  text-align: center;
 }
 
 .fo{
@@ -452,15 +482,12 @@ a{
   font-size: 16px;
   cursor: pointer;
   border-style: none;
-  margin-left: 555px;
   box-shadow: 0 10px 1px rgba(110, 19, 64, 0.89);
 }
 
 .mailicon{
   width: 35px;
-  margin-left: 590px;
-  margin-bottom: 90px;
-  margin-top: -55px;
+  margin: -55px 150px 90px 0;
 }
 
 .foot{
